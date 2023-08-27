@@ -11,7 +11,8 @@ The use cases include:
 
 
 ### Loom Link -
-https://www.loom.com/share/978e6068b44b48578c33de3a88852ab0
+https://www.loom.com/share/9ed44f71b0864d52b16e572457ebc58c
+
 ## Application and usage
 
 This MSA based event driven Microservice is built to monitor various transactions towards a specific contract and to trigger a specific action based on the transaction type if malicious.
