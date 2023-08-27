@@ -2,13 +2,6 @@
 // and we run it in our ethereum vm using ethereumjs-vm and run the transaction and check if it is having too low gas attached to it and token transfer is unusually high
 
 const ethers = require("ethers");
-const { Kafka } = require("kafkajs");
-const { Address } = require("@ethereumjs/util");
-const { defaultAbiCoder } = require("@ethersproject/abi");
-const { Chain, Common, Hardfork } = require("@ethereumjs/common");
-const { Transaction } = require("@ethereumjs/tx");
-const { VM } = require("@ethereumjs/vm");
-const { fromWei } = require("@ethereumjs/vm");
 const abi = require("./abi.json");
 require("dotenv").config();
 //setup network type for ethereumjs-vm mumabi testnet

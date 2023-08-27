@@ -1,10 +1,14 @@
-# GitHub Codespaces ♥️ Express
+# NEO HACKATHON
+The project delivers a DevOps Engine to smart contracts to handle exploits on chain via attack vector patterns recognition. It uses the transaction in the Mempool and if any of the transaction  patterns match the attack vector patterns, it will directly alert the owner of the contract and pause the contract immediately.
 
-Welcome to your shiny new Codespace running Express! We've got everything fired up and running for you to explore Express.
+The other scope of the project's engine is to enable alerting the users on any events that are subscribed to. 
 
-You've got a blank canvas to work on from a git perspective as well. There's a single initial commit with the what you're seeing right now - where you go from here is up to you!
+The use cases include:
+- Defi ecosystems contracts 
+- User trust dependency by enabling security over transperancy
+- Staying on date with crucial actions over your contracts throguh alerting
+- Avoiding exploits by the Monitoring
 
-Everything you do here is contained within this one codespace. There is no repository on GitHub yet. If and when you’re ready you can click "Publish Branch" and we’ll create your repository and push up your project. If you were just exploring then and have no further need for this code then you can simply delete your codespace and it's gone forever.
 
 ### Loom Link -
 https://www.loom.com/share/978e6068b44b48578c33de3a88852ab0
@@ -60,7 +64,7 @@ in different Bash instances
 
 ## Testing
 
-go to contracts folder and copy code to remix and run at address 0xB18Cf81F113CF2188f9dBA38466Ce35A9fa6Da59 ;
+go to contracts folder and copy code to remix and run at address 0xb95634DC908C2b3A55f1d9Bb6876b354c24dA13c ;
 
 call stake with value 1000 or 1000000000000000000 wei ;
 
@@ -68,5 +72,4 @@ reduce gas fee in metamask to test mempool_MS response ;
 
 check mail upon listener_MS response from CatnipKong05 ;
 
-## The codespace is live share enabled
-Ping me at muskbuster #6052 to get access to the live share session and we can have a live demo
+
